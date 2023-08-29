@@ -5,7 +5,7 @@ const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/bhesmark29/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/bhesmark-p-994885152'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/bhesmark89/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/bhesmark29'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/bhes_mark'},
 ]
 
 const FooterTwo = () => {

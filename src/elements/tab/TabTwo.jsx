@@ -34,21 +34,21 @@ class TabsTwo extends Component{
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">System</h6>
-                                                    <ProgressBar now={85} />
-                                                    <span className="label">85%</span>
+                                                    <h6 className="title">System Integration</h6>
+                                                    <ProgressBar now={80} />
+                                                    <span className="label">80%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Marketing</h6>
+                                                    <h6 className="title">Photography & Videograpy</h6>
                                                     <ProgressBar now={75} />
                                                     <span className="label">75%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Design</h6>
-                                                    <ProgressBar now={70} />
-                                                    <span className="label">60%</span>
+                                                    <h6 className="title">Graphic Design</h6>
+                                                    <ProgressBar now={75} />
+                                                    <span className="label">75%</span>
                                                 </div>
                                             </div>
                                         </div>

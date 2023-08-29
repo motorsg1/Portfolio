@@ -7,7 +7,7 @@ const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/bhesmark29/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/bhesmark-p-994885152'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/bhesmark89/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/bhesmark29'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/bhes_mark'},
 ]
 class HeaderThree extends Component{
     constructor(props) {
@@ -72,10 +72,11 @@ class HeaderThree extends Component{
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','about','service','projects','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#service">Service</a></li>
+                                <li><a href="#projects">Projects</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </Scrollspy>
                         </nav>

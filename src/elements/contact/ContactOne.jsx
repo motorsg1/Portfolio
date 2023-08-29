@@ -1,15 +1,25 @@
 import React, { Component } from "react";
 import FormStyle from "./FormStyle";
+import { TypeAnimation } from 'react-type-animation';
 
 class ContactOne extends Component{
     render(){
         return(
             <div className="contact-form--1">
                 <div className="container">
-                    <div className="row row--35 align-items-start">
-                        <div className="col-lg-8 order-2 order-lg-1">
+                    <div className="row row--35 align-items-start pt--20">
+                        <div className="col-lg-12 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <span className="subtitle">My Contact Info.</span>
+                            <TypeAnimation className="subtitle"
+                                        sequence={[
+                                            'My Contact Info.',
+                                            100
+                                        ]}
+                                        wrapper="span"
+                                        speed={10}
+                                        style={{ fontSize: '1em', fontWeight: 'bold', display: 'inline-block' }}
+                                        repeat={Infinity}
+                                        />
                                 <h2 className="title">Let's Say Hi</h2>
                                 <div className="im_address_inner">
                                     <div className="im_address">
