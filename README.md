@@ -1,132 +1,68 @@
-# A statically generated blog example using Next.js and Cosmic
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using [Cosmic](https://cosmicjs.com/) as the data source.
+## Available Scripts
 
-## Demo
+In the project directory, you can run:
 
-[https://cosmic-next-blog.vercel.app/](https://cosmic-next-blog.vercel.app/)
+### `npm start`
 
-## Deploy your own
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Once you have access to [the environment variables you'll need](#step-3-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic&project-name=cms-cosmic&repository-name=cms-cosmic&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY,COSMIC_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Cosmic&envLink=https://vercel.link/cms-cosmic-env)
+### `npm test`
 
-### Related examples
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Ghost](/examples/cms-ghost)
-- [Blog Starter](/examples/blog-starter)
+### `npm run build`
 
-## How to use
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-```bash
-npx create-next-app --example cms-cosmic cms-cosmic-app
-# or
-yarn create next-app --example cms-cosmic cms-cosmic-app
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Configuration
+### `npm run eject`
 
-### Step 1. Create an account and a project on Cosmic
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-First, [create an account on Cosmic](https://cosmicjs.com).
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Step 2. Install the Next.js Static Blog app
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-After creating an account, install the [Next.js Static Blog](https://www.cosmicjs.com/apps/nextjs-static-blog) app from the Cosmic App Marketplace.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Step 3. Set up environment variables
+## Learn More
 
-Go to the **Settings** menu at the sidebar and click **Basic Settings**.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Next, copy the `.env.local.example` file in this directory to `.env.local` (which will be ignored by Git):
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```bash
-cp .env.local.example .env.local
-```
+### Code Splitting
 
-Then set each variable on `.env.local`:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- `COSMIC_BUCKET_SLUG` should be the **Bucket slug** key under **Basic Settings**.
-- `COSMIC_READ_KEY` should be the **Read Key** under **API Access**.
-- `COSMIC_PREVIEW_SECRET` can be any random string (but avoid spaces) - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
+### Analyzing the Bundle Size
 
-Your `.env.local` file should look like this:
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-```bash
-COSMIC_BUCKET_SLUG=...
-COSMIC_READ_KEY=...
-COSMIC_PREVIEW_SECRET=...
-```
+### Making a Progressive Web App
 
-### Step 4. Run Next.js in development mode
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-```bash
-npm install
-npm run dev
+### Advanced Configuration
 
-# or
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-yarn install
-yarn dev
-```
+### Deployment
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### Step 5. Try preview mode
+### `npm run build` fails to minify
 
-To add the ability to preview content from your Cosmic dashboard go to **Posts > Edit Settings** and scroll down to the "Preview Link" section. (Screenshot below)
-
-![Image](https://cdn.cosmicjs.com/14e6c0f0-a07b-11ea-829b-5b458b05d525-preview-link.png)
-
-Add your live URL or localhost development URL which includes your chosen preview secret and `[object_slug]` shortcode. It should look like the following:
-
-```
-http://localhost:3000/api/preview?secret=<secret>&slug=[object_slug]
-```
-
-- `<secret>` is the string you entered for `COSMIC_PREVIEW_SECRET`.
-- `[object_slug]` shortcode will automatically be converted to the post's `slug` attribute.
-
-On Cosmic, go to one of the posts you've created and:
-
-- **Update the title**. For example, you can add `[Draft]` in front of the title.
-- Click **Save Draft**, but **DO NOT** click **Publish**. By doing this, the post will be in the draft state.
-
-Now, if you go to the post page directly on localhost, you won't see the updated title. However, if you use the **Preview Mode**, you'll be able to see the change ([Documentation](https://nextjs.org/docs/advanced-features/preview-mode)).
-
-Next, click the Preview Link button on the Post to see the updated title. (Screenshot below)
-
-<img src="https://cdn.cosmicjs.com/80f42680-a07a-11ea-829b-5b458b05d525-preview-button.png" width="300" />
-
-To exit preview mode, you can click on **Click here to exit preview mode** at the top.
-
-### Step 6. Deploy on Vercel
-
-You can deploy this app to the cloud with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-#### Deploy Your Local Project
-
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [import to Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example).
-
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to match your `.env.local` file.
-
-#### Deploy from Our Template
-
-Alternatively, you can deploy using our template by clicking on the Deploy button below.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic&project-name=cms-cosmic&repository-name=cms-cosmic&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY,COSMIC_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Cosmic&envLink=https://vercel.link/cms-cosmic-env)
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
