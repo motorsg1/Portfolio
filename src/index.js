@@ -11,7 +11,6 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
-import Demo from './page-demo/Demo';
 import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';
@@ -30,7 +29,6 @@ import CorporateBusiness from './home/CorporateBusiness';
 
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
-import DarkPortfolioLanding from './dark/PortfolioLanding';
 import HomePortfolio from './dark/HomePortfolio';
 
 // Element Layout
@@ -59,8 +57,7 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import Button from "./blocks/Button";
 
-
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 class Root extends Component{
@@ -119,7 +116,6 @@ class Root extends Component{
                         
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
-
                     </Switch>
                 </PageScrollTop>
             </BrowserRouter>

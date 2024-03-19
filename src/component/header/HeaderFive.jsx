@@ -135,7 +135,7 @@ class HeaderFive extends Component{
                                         </ul>
                                     </nav>
                                     <div className="header-btn d-none d-sm-block">
-                                        <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
+                                        <a className="btn-default btn-border btn-opacity" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
                                             <span>buy now</span>
                                         </a>
                                     </div>

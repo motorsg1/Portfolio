@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy';
 import ScrollToTop from 'react-scroll-up';
 import Particles from "react-tsparticles";
-import { FiChevronUp , FiX , FiMenu, FiCheck } from "react-icons/fi";
+import { FiChevronUp , FiX , FiMenu } from "react-icons/fi";
 import ServiceList from "../elements/service/ServiceList";
 import CounterTwo from "../elements/counters/CounterTwo";
 import Testimonial from "../elements/Testimonial";
@@ -83,11 +83,6 @@ class HomeParticles extends Component{
    
 
     render(){
-        var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
-        ];
 
         const PostList = BlogContent.slice(0 , 5);
         
@@ -139,7 +134,7 @@ class HomeParticles extends Component{
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
+                                <a className="btn-default btn-border btn-opacity" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
                                     <span>Buy Now</span>
                                 </a>
                             </div>

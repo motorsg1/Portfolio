@@ -1,37 +1,37 @@
 import React ,{ Component }from "react";
-import {  FaAdn, FaUniversalAccess } from "react-icons/fa";
-import { FiLayers , FiCode , FiMonitor, FiCodepen } from "react-icons/fi";
+import {  FaAdn } from "react-icons/fa";
+import { FiLayers , FiCode , FiMonitor, FiCodepen, FiAlertOctagon } from "react-icons/fi";
 
 const ServiceList = [
     {
         icon: <FiCodepen />,
-        title: 'React JS',
-        description: 'Build website from React JS modern website.'
+        title: 'HTML, CSS, & JavaScript',
+        description: 'Designing website and deploy website using native coding.'
     },
     {
         icon: <FiCode />,
-        title: 'Next JS',
-        description: 'Build website from Next JS modern website.'
+        title: 'Frameworks',
+        description: 'Creating website in advance modern coding using the React JS, Next JS Framework.'
     },
     {
         icon: <FiLayers/>,
-        title: 'UI/UX Design',
-        description: 'Design from scratch to live website.'
+        title: 'Design',
+        description: 'Enhancing UI/UX native design for better user experience'
     },
     {
         icon: <FiMonitor />,
-        title: 'Responsive Website',
-        description: 'Integrated with the package manger to keep your website in responsive'
+        title: 'Responsive',
+        description: 'Create responsive pages and themes style'
     },
     {
-        icon: <FaUniversalAccess />,
-        title: 'Versatile',
-        description: 'Build your website more versatile foe the end-user.'
+        icon: <FiAlertOctagon />,
+        title: 'Testing and Debugging',
+        description: 'Identifying and fixing performance bottlenecks bugs.'
     },
     {
         icon: <FaAdn />,
         title: 'Performance',
-        description: 'Java Script platform emmerge in the industry and it proven the performance.'
+        description: 'Improving the application performance increasing speed, stability and efficiency'
     },
 ]
 
@@ -46,7 +46,7 @@ class ServiceThree extends Component{
                 <div className="row service-main-wrapper">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <a href="/">
                                 <div className="service service__style--2 text-left bg-gray">
                                     <div className="icon">
                                         {val.icon}

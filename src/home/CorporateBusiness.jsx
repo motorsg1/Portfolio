@@ -56,25 +56,6 @@ const ServiceListOne = [
     },
 ]
 
-const starndardService = [
-    {
-        image: '01',
-        title: 'Thinking Development',
-        description: 'I throw myself down among the tall grass by the stream',
-    },
-    {
-        image: '02',
-        title: 'Business Consulting',
-        description: 'I throw myself down among the tall grass by the stream',
-    },
-    {
-        image: '03',
-        title: 'Biseness Development',
-        description: 'I throw myself down among the tall grass by the stream',
-    },
-
-]
-
 class CorporateBusiness extends Component{
     constructor () {
         super()
@@ -87,18 +68,6 @@ class CorporateBusiness extends Component{
         this.setState({isOpen: true})
     }
     render(){
-
-        var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
-            'The Ultimate Deal On business',
-        ];
-        var namesItemTwo = [
-            'Proof That business Really Works',
-            'Here Is What You Should Do For Your business',
-            'The Hidden Mystery Behind business',
-        ];
         
         const PostList = BlogContent.slice(0 , 3);
 

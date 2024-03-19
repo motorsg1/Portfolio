@@ -32,7 +32,7 @@ const FooterThree = () => {
                                 ))}
                             </ul>
                             <div className="text mt--20">
-                                <p>© 2022 <a target="_blank" href="https://themeforest.net/user/rainbow-themes/portfolio">Rainbow-Themes</a>. All Rights Reserved.</p>
+                                <p>© 2022 <a href="https://themeforest.net/user/rainbow-themes/portfolio">Rainbow-Themes</a>. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>

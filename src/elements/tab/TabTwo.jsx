@@ -5,7 +5,7 @@ import { ProgressBar } from 'react-bootstrap';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Technical",
+        tab1 = "Skills",
         tab3 = "Experience",
         tab4 = "Education";
         const { tabStyle } = this.props
@@ -20,7 +20,6 @@ class TabsTwo extends Component{
                                 <Tabs>
                                     <TabList  className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
-
                                         <Tab>{tab3}</Tab>
                                         <Tab>{tab4}</Tab>
                                     </TabList>
@@ -29,27 +28,27 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <div className={`rn-progress-bar progress-bar--1 mt_dec--10`}>
                                                 <div className="single-progress">
-                                                    <h6 className="title">Development</h6>
+                                                    <h6 className="title">Web Development</h6>
                                                     <ProgressBar now={95} />
                                                     <span className="label">90%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Management</h6>
-                                                    <ProgressBar now={85} />
-                                                    <span className="label">85%</span>
+                                                    <h6 className="title">System Integration</h6>
+                                                    <ProgressBar now={80} />
+                                                    <span className="label">80%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Management Digital Marketing</h6>
+                                                    <h6 className="title">Photography & Videograpy</h6>
                                                     <ProgressBar now={75} />
                                                     <span className="label">75%</span>
                                                 </div>
 
                                                 <div className="single-progress">
-                                                    <h6 className="title">Design</h6>
-                                                    <ProgressBar now={70} />
-                                                    <span className="label">70%</span>
+                                                    <h6 className="title">Graphic Design</h6>
+                                                    <ProgressBar now={75} />
+                                                    <span className="label">75%</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -59,10 +58,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Web Developer<span><br /> - Motors Gate Company | بوابة العربات · Full-time</span></a> Sep 2021 - Present
+                                                   <a href="/">Web Developer<span><br /> - Motors Gate Company | بوابة العربات · Full-time</span></a> Sep 2021 - Current.
                                                </li>
                                                <li>
-                                                   <a href="/service">Junior Web Developer<span><br /> - Distribution & Marketing Company Ltd</span></a> Sep 2016 - Sep 2021 · 5 yrs 1 mo
+                                                   <a href="/">Junior Web Developer<span><br /> - Distribution & Marketing Company Ltd</span></a> Sep 2016 - Sep 2021 · 5yr.
                                                </li>
                                            </ul>
                                        </div>
@@ -72,7 +71,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Panpacific University North Philippines<span> <br />- Computer/Information Technology</span></a> 2014
+                                                   <a href="/">Panpacific University North Philippines<span> <br />- Associate in Computer Technology</span></a> 2014
                                                </li>
                                            </ul>
                                        </div>

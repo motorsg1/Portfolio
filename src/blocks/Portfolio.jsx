@@ -8,7 +8,7 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { slickDot } from "../page-demo/script";
 
 const Portfolio_image = <img src="/assets/images/portfolio/portfolio-4.jpg" alt="React Creative Agency" />;
 const Portfolio_image2 = <img src="/assets/images/portfolio/portfolio-5.jpg" alt="React Creative Agency" />;
@@ -48,39 +48,6 @@ const list = [
         image: Portfolio_image6,
         category: 'Development',
         title: 'Getting tickets to the big show'
-    }
-]
-
-const PortfolioList2 = [
-    {
-        image: 'image-1',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-2',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: ' Getting tickets to the big show'
     }
 ]
 

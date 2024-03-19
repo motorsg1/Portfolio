@@ -14,8 +14,6 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
-const image1 =
-  "/assets/images/bg/paralax/bg-image-3-overlay.jpg";
 
 const Portfolio_image = <img src="/assets/images/portfolio/portfolio-8.jpg" alt="React Creative Agency" />;
 const Portfolio_image2 = <img src="/assets/images/portfolio/portfolio-9.jpg" alt="React Creative Agency" />;

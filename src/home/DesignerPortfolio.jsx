@@ -8,8 +8,6 @@ import Header from "../component/header/HeaderFour";
 import TabThree from "../elements/tab/TabThree";
 import Helmet from "../component/common/Helmet";
 
-import { videoTagString, VideoTag } from 'react-video-tag';
-
 const SlideList = [
     {
         textPosition: 'text-left',

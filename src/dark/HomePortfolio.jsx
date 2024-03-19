@@ -1,4 +1,4 @@
-import React, { Component , Fragment } from "react";
+import React, { Component } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import PortfolioMasonry from "../elements/portfolio/PortfolioMasonry";

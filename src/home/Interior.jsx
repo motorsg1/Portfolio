@@ -9,7 +9,7 @@ import FooterTwo from "../component/footer/FooterTwo";
 import Helmet from "../component/common/Helmet";
 import TeamOne from "../blocks/team/TeamOne";
 import Slider from "react-slick";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { portfolioSlick2 } from "../page-demo/script";
 
 const SlideList = [
     {
@@ -180,7 +180,7 @@ class InteriorLanding extends Component{
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
+                                <a className="btn-default btn-border btn-opacity" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
                                     <span>buy now</span>
                                 </a>
                             </div>

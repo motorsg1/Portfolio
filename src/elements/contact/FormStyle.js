@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React , {useState, useRef} from 'react';
 import emailjs from 'emailjs-com';
 
 
@@ -8,16 +8,17 @@ const Result = () => {
     )
 }
 function FormStyle({props}) {
+    const form = useRef();
     const [ result,showresult ] = useState(false);
+
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs
-        .sendForm(
+        emailjs.sendForm(
             'service_03etbtd', 
-            'template_lqkacwl', 
-            e.target, 
-            'user_sKH7o6dyQWixENGkc'
+            'template_65spa48',
+            form.current,  
+            '5a9WakMF4_xsElXLQ'
         )
         .then((result) => {
             console.log(result.text);
@@ -37,7 +38,7 @@ function FormStyle({props}) {
     
     return (
         <div className="form-wrapper">
-            <form action="" onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail}>
                 <div className="rn-form-group">
                     <input 
                     type="text"
