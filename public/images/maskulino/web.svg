@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 108 82.86">
+  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ddd;
+      }
+
+      .st1 {
+        fill: #008aa6;
+      }
+
+      .st2 {
+        fill: #f04f59;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st4 {
+        fill: #a2dcee;
+      }
+
+      .st5 {
+        fill: #fc4;
+      }
+
+      .st6 {
+        fill: #4ebfa3;
+      }
+    </style>
+  </defs>
+  <rect class="st0" width="108" height="82.86"/>
+  <g>
+    <path class="st3" d="M3.24,5.97h101.52v73.52c0,.37-.3.67-.67.67H3.91c-.37,0-.67-.3-.67-.67V5.97h0Z"/>
+    <path class="st1" d="M3.66,2.71h100.69c.23,0,.42.19.42.42v8.24H3.24V3.12c0-.23.19-.42.42-.42Z"/>
+    <rect class="st4" x="13.82" y="17.55" width="80.36" height="24.91"/>
+    <rect class="st4" x="13.82" y="47.07" width="24.09" height="20.07"/>
+    <rect class="st4" x="42.09" y="47.07" width="24.09" height="20.07"/>
+    <rect class="st4" x="13.82" y="68.72" width="24.09" height="1.59"/>
+    <rect class="st4" x="13.82" y="71.61" width="24.09" height="1.59"/>
+    <rect class="st4" x="42.09" y="68.72" width="24.09" height="1.59"/>
+    <rect class="st4" x="42.09" y="71.61" width="24.09" height="1.59"/>
+    <rect class="st5" x="70.09" y="47.07" width="24.09" height="20.07"/>
+    <rect class="st4" x="70.09" y="68.72" width="24.09" height="1.59"/>
+    <rect class="st4" x="70.09" y="71.61" width="24.09" height="1.59"/>
+    <polygon class="st3" points="71.98 61.47 85.76 61.47 78.87 51.91 71.98 61.47"/>
+    <polygon class="st3" points="81.46 61.47 91.9 61.47 86.68 54.23 81.46 61.47"/>
+    <path class="st3" d="M84.6,75.23c0,.57-.47,1.04-1.04,1.04s-1.04-.47-1.04-1.04.47-1.04,1.04-1.04,1.04.47,1.04,1.04Z"/>
+    <circle class="st5" cx="85.03" cy="7.07" r="1.73"/>
+    <path class="st2" d="M93.01,7.07c0,.96-.77,1.73-1.73,1.73s-1.73-.77-1.73-1.73.77-1.73,1.73-1.73,1.73.77,1.73,1.73Z"/>
+    <circle class="st6" cx="97.53" cy="7.07" r="1.73"/>
+  </g>
+</svg>
